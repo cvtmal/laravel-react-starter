@@ -1,5 +1,3 @@
-<p align="center"><img src="https://private-user-images.githubusercontent.com/53231361/425470939-e36de23b-11c6-4828-8258-6beddef99205.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDI1NjMxNzUsIm5iZiI6MTc0MjU2Mjg3NSwicGF0aCI6Ii81MzIzMTM2MS80MjU0NzA5MzktZTM2ZGUyM2ItMTFjNi00ODI4LTgyNTgtNmJlZGRlZjk5MjA1LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAzMjElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMzIxVDEzMTQzNVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWFlZTAzMjRjYzZiYzMxZjZlZmExYmY5NTk1OGIxNmI4ZmEwYzhhNDRmMWU1MTY4MTlhMTk2ZjRhODY2NGFiM2QmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.zMcTvCP688MqPhX6d65U2UUqG2SCn5Z7SPYx-TutADY" width="310"></a></p>
-
 <p align="center">
 <a href="https://github.com/cvtmal/laravel-react-starter/actions"><img src="https://github.com/cvtmal/laravel-react-starter/actions/workflows/tests.yml/badge.svg" alt="Build Status"></a>
 <a href="https://github.com/cvtmal/laravel-react-starter"><img src="https://img.shields.io/badge/license-MIT-green" alt="License"></a>
