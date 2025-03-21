@@ -17,14 +17,14 @@ A Laravel starter kit that comes preconfigured with modern PHP tools, coding sta
 
 ## Features
 
-### Static Analysis & Quality Assurance
-- **Larastan/PHPStan:** Configured with `phpstan.neon` set to maximum level (10). Note that framework-specific code is annotated with `// @phpstan-ignore-line` to bypass false positives.
+### Static Analysis & QA
+- **Larastan/PHPStan:** Configured with `phpstan.neon` set to maximum level (10). Note that framework-specific react starter kit code is annotated with `// @phpstan-ignore-line` to bypass false positives.
 - **Rector PHP:** Automated refactoring and code modernization.
-- **Laravel Pint:** Enforced with custom strict rules defined in `pint.json` for consistent code style.
+- **Laravel Pint:** Strict rules defined in `pint.json` for consistent code style.
 ### Project Structure
-- **Actions:** All application-specific actions reside in `app/Actions`.
+- **Actions:** Single-purpose business logic classes independent of HTTP concerns in `app/Actions`.
 - **Enums:** Place your enumerations in `app/Enums`.
-- **Services:** Business logic and service layer code is located in `app/Services`.
+- **Services:** Service classes get located in `app/Services`.
 ### Testing
 #### Unit Tests:
 - Actions tests are in `tests/Unit/Actions`.
@@ -35,20 +35,26 @@ A Laravel starter kit that comes preconfigured with modern PHP tools, coding sta
 - Included to ensure the project adheres to established architectural guidelines.
 ### Custom Configurations
 - **AppServiceProvider:** Configured with custom rules to further align with your project requirements.
+- **PHPStan:** Custom settings in `phpstan.neon` to suit your project's needs.
+- **Rector PHP:** Configured in `rector.php` for automated refactoring.
+- **Laravel Pint:** Configured in `pint.json` for code style enforcement.
+- **Environment File:** Example environment file provided as `.env.example`.
+- **GitHub Actions:** CI/CD pipeline configured in `.github/workflows/tests.yml` for automated testing and quality checks.
 
 ## Project Structure
 
 ```plaintext
 ├── app
-│   ├── Actions/                         # Application actions
-│   ├── Enums/                           # Enumeration classes
-│   ├── Providers/AppServiceProvider.php # Custom Service provider
-│   └── Services/                        # Business logic and service classes
+│   ├── Actions/                         # Actions Pattern
+│   ├── Enums/                           # Enums
+│   ├── Providers
+│       └── AppServiceProvider.php       # Customized App Service Provider
+│   └── Services/                        # Service classes
 ├── tests
 │   └── Unit
 │       ├── Actions/                     # Unit tests for actions
 │       ├── Enums/                       # Unit tests for enums
-│       └── Models/                      # Unit tests for models
+│       ├── Models/                      # Unit tests for models
 │       └── ArchTest.php                 # Architecture tests
 ├── .env.example                         # Example environment file
 ├── phpstan.neon                         # PHPStan configuration
