@@ -12,7 +12,7 @@ A Laravel starter kit that comes preconfigured with modern PHP tools, coding sta
 
 ## Requirements
 
-- **PHP Version:** 8.4
+- **PHP Version:** 8.2
 - **Laravel Version:** 12.x
 
 ## Features
