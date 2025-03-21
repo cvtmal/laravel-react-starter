@@ -10,7 +10,7 @@ A Laravel starter kit that comes preconfigured with modern PHP tools, coding sta
 ## Features
 
 ### Static Analysis & Quality Assurance
-- **Larastan/PHPStan:** Configured with `phpstan.neon` set to maximum level. Note that framework-specific code is annotated with `// @phpstan-ignore-line` to bypass false positives.
+- **Larastan/PHPStan:** Configured with `phpstan.neon` set to maximum level (10). Note that framework-specific code is annotated with `// @phpstan-ignore-line` to bypass false positives.
 - **Rector PHP:** Automated refactoring and code modernization.
 - **Laravel Pint:** Enforced with custom strict rules defined in `pint.json` for consistent code style.
 ### Project Structure
