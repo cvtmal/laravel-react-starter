@@ -3,8 +3,8 @@
 declare(strict_types=1);
 
 use App\Models\User;
-use Illuminate\Support\Facades\Notification;
 use Illuminate\Auth\Notifications\VerifyEmail;
+use Illuminate\Support\Facades\Notification;
 
 uses(Illuminate\Foundation\Testing\RefreshDatabase::class);
 

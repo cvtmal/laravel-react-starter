@@ -60,7 +60,7 @@ final class NewPasswordController
         // the application's home authenticated view. If there is an error we can
         // redirect them back to where they came from with their error message.
         if ($status === Password::PasswordReset) {
-            return to_route('login')->with('status', __($status)); // @phpstan-ignore-line
+            return to_route('login')->with('status', __($status));
         }
 
         throw ValidationException::withMessages([
