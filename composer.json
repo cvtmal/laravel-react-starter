@@ -2,7 +2,7 @@
     "$schema": "https://getcomposer.org/schema.json",
     "name": "cvtmal/starter-gang",
     "type": "project",
-    "description": "Nuno Maduro inspired Laravel starter kit with PHPStan, Pint, Pest, and Rector based on the latest Laravel 12 React Starter Kit.",
+    "description": "React Laravel starter kit with PHPStan, Pint, Pest, and Rector based on the latest Laravel 12 React Starter Kit.",
     "keywords": [
         "laravel",
         "framework",
