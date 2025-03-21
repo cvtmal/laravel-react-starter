@@ -1,3 +1,11 @@
+<p align="center"><img src="https://drive.google.com/file/d/1dNoLJjAdXu0K6Fi5CCehIdnqYfUVVIiK/view"></a></p>
+
+<p align="center">
+<a href="https://github.com/cvtmal/laravel-react-starter/actions"><img src="https://github.com/cvtmal/laravel-react-starter/actions/workflows/tests.yml/badge.svg" alt="Build Status"></a>
+<a href="https://github.com/cvtmal/laravel-react-starter"><img src="https://img.shields.io/badge/license-MIT-green" alt="License"></a>
+<a href="https://herd.laravel.com/new?starter-kit=cvtmal/laravel-react-starter"><img src="https://img.shields.io/badge/Install%20with%20Herd-f55247?logo=laravel&logoColor=white"></a>
+</p>
+
 # cvtmal/laravel-react-starter
 
 A Laravel starter kit that comes preconfigured with modern PHP tools, coding standards, and an opinionated project structure. This starter kit is designed to help you jumpstart your Laravel projects with robust quality checks, static analysis, and architectural guidelines.
