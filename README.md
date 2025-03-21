@@ -1,3 +1,5 @@
+<p align="center"><img src="https://foxbau.ch/laravel-react-starter.png" width="600"></p>
+
 <p align="center">
 <a href="https://github.com/cvtmal/laravel-react-starter/actions"><img src="https://github.com/cvtmal/laravel-react-starter/actions/workflows/tests.yml/badge.svg" alt="Build Status"></a>
 <a href="https://github.com/cvtmal/laravel-react-starter"><img src="https://img.shields.io/badge/license-MIT-green" alt="License"></a>
