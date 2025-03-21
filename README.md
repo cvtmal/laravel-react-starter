@@ -1,4 +1,4 @@
-# cvtmal/starter-gang
+# cvtmal/laravel-react-starter
 
 A Laravel starter kit that comes preconfigured with modern PHP tools, coding standards, and an opinionated project structure. This starter kit is designed to help you jumpstart your Laravel projects with robust quality checks, static analysis, and architectural guidelines.
 
