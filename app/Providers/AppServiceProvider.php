@@ -32,7 +32,6 @@ final class AppServiceProvider extends ServiceProvider
         $this->configureDates();
         $this->configureUrls();
         $this->configureVite();
-        $this->configureDates();
     }
 
     /**
